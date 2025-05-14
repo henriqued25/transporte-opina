@@ -1,0 +1,101 @@
+# Arquivo gerado por: https://www.toptal.com/developers/gitignore/api/node,yarn
+# Editado para clareza e adições comuns
+
+### Node ###
+# Arquivos de log
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Arquivos de diagnóstico gerados em relatógios de travamento de tempo de execução gerados pelo Node.js
+report.??????????.????.???.*.json
+
+# Arquivos temporários do carregador de módulos do node
+.node_repl_history
+
+# Arquivo de configuração do usuário ESLint
+# Deve ser gerenciado por usuário em um arquivo de configuração global
+.eslintcache
+
+# Arquivos de configuração do usuário do editor jshint
+.jshintrc
+
+# Arquivos de configuração do usuário do editor JSLint
+.jslintrc
+
+# Arquivos de configuração do usuário do editor de fluxo
+.flowconfig
+
+# Arquivos de configuração do usuário do editor de estilo Bithound
+.bithoundrc
+
+# Diretório de dependências
+# NÃO comitar a pasta node_modules! Ela pode ser reconstruída com 'yarn install'.
+node_modules/
+jspm_packages/
+
+# Cache do cliente da Webpack
+.webpack/
+
+# Arquivo de configuração do usuário do editor de texto do Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Arquivos de ambiente local
+# NUNCA comitar arquivos .env com segredos!
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.production
+.env*.development
+
+# Arquivos de configuração do OSX / Windows / Linux
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Arquivos de Build/Distribuição
+dist/
+build/
+public/ # Se for gerado por um processo de build, caso contrário, remova esta linha se for código-fonte
+out/
+coverage/
+.nyc_output/
+
+# Diversos
+.idea/ # Diretório de configuração do WebStorm/PHPStorm/IntelliJ
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw? # Arquivos de swap do Vim/Neovim
+
+# Arquivos específicos do Yarn v2+ (Berry) - Opcional, mas bom ter
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# --- FIM ---
